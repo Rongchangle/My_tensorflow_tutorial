@@ -1,0 +1,11 @@
+这份代码来源是kevin28520的github上的My-Tensor-tutorials的01 cats vs dogs
+这份代码我没运行过,不过参考他的代码,我改写了自己的CNN然后跑通了.
+我仅仅在这里把他的代码保存下来,然后做笔记并且保存罢了.
+
+这份代码学习:
+1.如果用自己的数据集来制作cnn训练需要的batch(本代码思路是把所有训练图片的paths和labels用python的list保存下来,然后交给tensorflow来处理.
+
+2.这份代码条理清晰:
+(1)model.py把模型,损失,学习,评估分开了,很有条理,可以用作模板.
+(2)tensorboard的保存
+(3)具体训练步骤(try语句)也可以用作模板.
